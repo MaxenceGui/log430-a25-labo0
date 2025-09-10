@@ -9,8 +9,6 @@ def test_app():
     my_calculator = Calculator()
     assert "Calculatrice" in my_calculator.get_hello_message()
 
-# TODO: ajoutez les tests
-
 def test_get_hello_message():
     my_calculator = Calculator()
     assert my_calculator.get_hello_message() == "== Calculatrice v1.0 =="
