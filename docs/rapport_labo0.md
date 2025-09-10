@@ -29,3 +29,9 @@ src\tests\test_calculator.py:29: AssertionError
 FAILED src/tests/test_calculator.py::test_addition - assert 0 == -1
 ======================================================================= 1 failed, 5 passed in 0.08s ========================================================================
 ```
+
+### Q2: Que fait GitLab pendant les étapes de « setup » et « checkout » ?
+
+```bash
+
+```
