@@ -24,4 +24,4 @@ jobs:
       - name: Lancer les tests
         working-directory: src
         run: |
-          pytest
+          python -m pytest
