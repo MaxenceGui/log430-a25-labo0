@@ -23,4 +23,4 @@ jobs:
 
       - name: Lancer les tests
         run: |
-          pytest src/tests
+          PYTHONPATH=src pytest
