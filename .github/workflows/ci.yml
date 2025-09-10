@@ -22,5 +22,6 @@ jobs:
           pip install pytest
 
       - name: Lancer les tests
+        working-directory: src
         run: |
-          PYTHONPATH=src pytest
+          pytest
